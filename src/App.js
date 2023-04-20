@@ -5,6 +5,7 @@ import Events from "./views/Events";
 import Team from "./views/Team";
 import Gallery from "./views/Gallery";
 import NavBar from "./comps/Navbar";
+import Foot from "./comps/Footer";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
+        <Foot/>
       </HashRouter>
     </div>
   );

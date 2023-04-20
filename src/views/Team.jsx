@@ -9,7 +9,7 @@ const TeamTabs = () => {
   const [teamData, setTeamData] = React.useState(team[0]);
   const tabsRef = React.useRef();
   return (
-    <>
+    <div className="mb-10">
       <Tabs.Group
         aria-label="Default tabs"
         style="fullWidth"
@@ -18,6 +18,7 @@ const TeamTabs = () => {
           setActiveTab(tab);
           setTeamData(team[tab]);
         }}
+        className="my-2"
       >
         <Tabs.Item active title="2023">
           Session 2023
@@ -28,7 +29,7 @@ const TeamTabs = () => {
           </Tabs.Item>
         ))}
       </Tabs.Group>
-      <>
+      <div className="-mt-10">
         <div className="flex flex-col justify-center items-center m-0 mt-10 md:flex-row">
           <HeroCard hero={teamData.president} />
           <HeroCard hero={teamData.vicePresident} />
@@ -38,16 +39,16 @@ const TeamTabs = () => {
             <HeroCard hero={hero} />
           ))}
         </div>
-      </>
+      </div>
       <UnitModal members={teamData.unitMembers}/>
-    </>
+    </div>
   );
 };
 export default function Team() {
   return (
     <React.Fragment>
       <div className="text-xl">Managerial Team</div>
-      <TeamTabs />
+      <TeamTabs/>
     </React.Fragment>
   );
 }

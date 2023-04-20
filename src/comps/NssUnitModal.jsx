@@ -7,7 +7,7 @@ export default function UnitModal(props) {
 
   return (
     <React.Fragment>
-      <div className="w-fit m-auto cursor-pointer p-3 text-[#37316f] bg-blue-200 border-blue-400 border-2 border-solid" onClick={onClick}>View Unit Members</div>
+      <div className="w-fit m-auto cursor-pointer my-5 p-3 text-[#37316f] bg-blue-200 border-blue-400 border-2 border-solid" onClick={onClick}>View Unit Members</div>
       <Modal size={"5xl"} dismissible={true} show={show} onClose={onClose}>
         <Modal.Header>UNIT MEMBERS</Modal.Header>
         <Modal.Body>
