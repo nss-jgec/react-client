@@ -1,0 +1,10 @@
+services:
+  app:
+    image: node:18.16-alpine
+    command: sh -c "npm install && npm start"
+    volumes:
+      - .:/nss-jgec
+    working_dir: /nss-jgec
+    ports:
+      - 3000:3000
+

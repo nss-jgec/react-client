@@ -1,0 +1,113 @@
+[
+  {
+    "year": 2023,
+    "president": {
+      "name": "Prof. Asim Kumar Mahapatra",
+      "email": "sc2412@it.jgec.ac.in",
+      "image": "",
+      "role": "President"
+    },
+    "vicePresident": {
+      "name": "John Doe",
+      "email": "",
+      "image": "",
+        "role": "Vice President"
+    },
+    "team": [
+      {
+        "name": "John Doe",
+        "email": "",
+        "image": "",
+        "role": ""
+      },
+      {
+        "name": "John Doe",
+        "email": "",
+        "image": "",
+        "role": ""
+      },
+      {
+        "name": "John Doe",
+        "email": "",
+        "image": "",
+        "role": ""
+      },
+      {
+        "name": "John Doe",
+        "email": "",
+        "image": "",
+        "role": ""
+      }
+    ],
+    "unitMembers": [
+      {
+        "name": "Asim Mahapatra",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": "20101106012"
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      },
+      {
+        "name": "John Doe",
+        "rollNo": ""
+      }
+    ]
+  }
+]
