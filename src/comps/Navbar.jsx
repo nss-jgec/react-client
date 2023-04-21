@@ -1,7 +1,6 @@
-import { Navbar } from "flowbite-react";
+import { Dropdown, Navbar } from "flowbite-react";
 import AppNavLink from "./AppNavLink";
 export default function NavBar() {
-
   return (
     <Navbar fluid={true} rounded={true}>
       <Navbar.Brand>
@@ -14,8 +13,22 @@ export default function NavBar() {
       <Navbar.Collapse>
         <AppNavLink to="/" text="Home" />
         <AppNavLink to="/events" text="Events" />
-        <AppNavLink to="/team" text="Team" />
-        <AppNavLink to="/gallery" text="Gallery" />
+        <AppNavLink to="/activity" text="Activity" />
+        {/* <AppNavLink to="/team" text="Team" /> */}
+        <Dropdown
+          placement="bottom"
+          inline={true}
+          arrowIcon={false}
+          label="Teams"
+        >
+          <Dropdown.Item>
+            <AppNavLink to="/team" text="Operations Team" />
+          </Dropdown.Item>
+          <Dropdown.Item>
+            <AppNavLink to="/advisory-committee" text="Advisory Committee" />
+          </Dropdown.Item>
+        </Dropdown>
+        <AppNavLink to="/contact" text="Contact Us" />
       </Navbar.Collapse>
     </Navbar>
   );

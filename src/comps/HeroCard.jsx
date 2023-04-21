@@ -1,7 +1,7 @@
 export default function HeroCard(props) {
   console.log(props);
   return (
-    <div className="group h-52 w-52 md:h-60 md:w-60 m-5 mt-10 relative">
+    <div className="group h-52 w-52 md:h-60 md:w-60 m-5 mt-10 relative rounded-2xl shadow-sm shadow-[#37316f]">
       <div className="bg-[#37316f] h-full w-full rounded-2xl absolute">
         <a href={"mailTo:" + props.hero.email} target="_blank" rel="noreferrer">
           <img

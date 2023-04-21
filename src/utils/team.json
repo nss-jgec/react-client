@@ -3,28 +3,28 @@
     "year": 2023,
     "president": {
       "name": "Prof. Asim Kumar Mahapatra",
-      "email": "sc2412@it.jgec.ac.in",
+      "email": "",
       "image": "",
       "role": "President"
     },
     "vicePresident": {
-      "name": "John Doe",
+      "name": "Prof. Arindam Saha",
       "email": "",
       "image": "",
         "role": "Vice President"
     },
     "team": [
       {
-        "name": "John Doe",
+        "name": "Saikat Sarkar",
         "email": "",
         "image": "",
-        "role": ""
+        "role": "Secretary"
       },
       {
-        "name": "John Doe",
+        "name": "Protiti Saha",
         "email": "",
-        "image": "",
-        "role": ""
+        "image": "https://i.imgur.com/QQyy4jB.png",
+        "role": "Outreach Head"
       },
       {
         "name": "Soham Chowdhury",
@@ -33,80 +33,23 @@
         "role": "Web & Media Admin"
       },
       {
-        "name": "John Doe",
+        "name": "Hemangojit Baidya",
         "email": "",
         "image": "",
-        "role": ""
+        "role": "Logistics Head"
+      },
+      {
+        "name": "Arka Biswas",
+        "email": "",
+        "image": "",
+        "role": "Activities Head"
       }
     ],
     "unitMembers": [
       {
-        "name": "Asim Mahapatra",
-        "rollNo": ""
-      },
-      {
         "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": "20101106012"
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
-      },
-      {
-        "name": "John Doe",
-        "rollNo": ""
+        "rollNo": "",
+        "email": ""
       }
     ]
   }

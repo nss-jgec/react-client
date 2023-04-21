@@ -6,6 +6,7 @@ import Team from "./views/Team";
 import Gallery from "./views/Gallery";
 import NavBar from "./comps/Navbar";
 import Foot from "./comps/Footer";
+import Advisory from "./views/Advisory";
 function App() {
   return (
     <div className="App">
@@ -15,9 +16,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
           <Route path="/team" element={<Team />} />
+          <Route path="advisory-committee" element={<Advisory />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
-        <Foot/>
+        <Foot />
       </HashRouter>
     </div>
   );

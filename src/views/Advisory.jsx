@@ -1,5 +1,5 @@
 import React from "react";
-import team from "../utils/team.json";
+import team from "../utils/advisory-committee.json";
 import { Tabs, Button } from "flowbite-react";
 import HeroCard from "../comps/HeroCard";
 import UnitModal from "../comps/NssUnitModal";
@@ -26,25 +26,20 @@ const TeamTabs = () => {
         ))}
       </Tabs.Group>
       <div className="-mt-10">
-        <div className="flex flex-col justify-center items-center m-0 mt-10 md:flex-row">
-          <HeroCard hero={teamData.president} />
-          <HeroCard hero={teamData.vicePresident} />
-        </div>
         <div className="flex flex-col md:flex-row flex-wrap justify-center items-center">
-          {teamData.team.map((hero) => (
+          {teamData.members.map((hero) => (
             <HeroCard hero={hero} />
           ))}
         </div>
       </div>
-      <UnitModal members={teamData.unitMembers} />
     </div>
   );
 };
-export default function Team() {
-  document.title = "NSS | Team";
+export default function Advisory() {
+  document.title = "NSS | Advisory Committee";
   return (
     <div className="min-h-screen">
-      <div className="text-xl">Operational Team</div>
+      <div className="text-xl">Advisory Committee</div>
       <TeamTabs />
     </div>
   );

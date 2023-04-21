@@ -1,0 +1,31 @@
+[
+  {
+    "year": 2023,
+    "members": [
+      {
+        "name": "Saikat Sarkar",
+        "email": "",
+        "image": "",
+        "role": "Faculty Representative"
+      },
+      {
+        "name": "Protiti Saha",
+        "email": "",
+        "image": "https://i.imgur.com/QQyy4jB.png",
+        "role": "Faculty Representative"
+      },
+      {
+        "name": "Soham Chowdhury",
+        "email": "soham36chowdhury@gmail.com",
+        "image": "https://i.imgur.com/6hUvFvt.jpg",
+        "role": "Student Coordinator"
+      },
+      {
+        "name": "Hemangojit Baidya",
+        "email": "",
+        "image": "",
+        "role": "Student Coordinator"
+      }
+    ]
+  }
+]

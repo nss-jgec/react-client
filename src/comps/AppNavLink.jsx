@@ -6,7 +6,7 @@ export default function AppNavLink(props) {
 
   return (
     <span onClick={clickHandler}>
-      <Navbar.Link className="text-lg" href={props.to} active={location.pathname === props.to}>
+      <Navbar.Link className="" href={props.to} active={location.pathname === props.to}>
         {props.text}
       </Navbar.Link>
     </span>
