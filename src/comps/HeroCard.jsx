@@ -1,8 +1,8 @@
 export default function HeroCard(props) {
   console.log(props);
   return (
-    <div className="group h-52 w-52 md:h-60 md:w-60 m-5 mt-10 relative rounded-2xl shadow-sm shadow-[#37316f]">
-      <div className="bg-[#37316f] h-full w-full rounded-2xl absolute">
+    <div className="group h-52 w-52 md:h-60 md:w-60 m-5 mt-10 relative rounded-lg shadow-sm shadow-[#37316f]">
+      <div className="bg-[#37316f] h-full w-full rounded-lg absolute">
         <a href={"mailTo:" + props.hero.email} target="_blank" rel="noreferrer">
           <img
             src="./mailIcon.svg"
@@ -14,13 +14,13 @@ export default function HeroCard(props) {
           {props.hero.name}
         </div>
       </div>
-      <div className="bg-blue-200 h-full w-full flex rounded-2xl absolute group-hover:-translate-x-9 group-hover:-translate-y-9 transition-all duration-300">
+      <div className="bg-blue-200 h-full w-full flex rounded-lg absolute group-hover:-translate-x-9 group-hover:-translate-y-9 transition-all duration-300">
         <img
           src={
             props.hero.image ? props.hero.image : "https://i.imgur.com/VfzpNHY.png"
           }
           alt="headshot"
-          className="h-5/6 w-5/6 m-auto rounded-2xl"
+          className="h-5/6 w-5/6 m-auto rounded-lg"
         />
       </div>
       <div className="-bottom-4 absolute text-center underline underline-offset-2 h-4 w-full text-[#37316f]">
