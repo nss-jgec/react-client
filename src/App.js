@@ -3,21 +3,23 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
 import Events from "./views/Events";
 import Team from "./views/Team";
-import Gallery from "./views/Gallery";
 import NavBar from "./comps/Navbar";
 import Foot from "./comps/Footer";
 import Advisory from "./views/Advisory";
+import Contact from "./views/Contact";
+import Activities from "./views/Activities";
 function App() {
   return (
     <div className="App">
       <HashRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/activity" element={<Activities />} />
           <Route path="/team" element={<Team />} />
           <Route path="advisory-committee" element={<Advisory />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
         </Routes>
         <Foot />
       </HashRouter>
