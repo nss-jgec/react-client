@@ -8,7 +8,7 @@ export default function NavBar() {
       className="sticky top-0 z-50 shadow-sm mb-2"
     >
       <Navbar.Brand>
-        <img src="./nss.png" className="mr-3 h-20" alt="NSS Logo" />
+        <img src="./nss.png" className="mr-3 h-14" alt="NSS Logo" />
         <span className="self-center text-left whitespace-nowrap text-sm md:text-xl font-semibold dark:text-white">
           National Service Scheme <br />{" "}
           <span className="font-medium hidden md:block text-sm">
