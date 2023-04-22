@@ -22,7 +22,7 @@ export default function NavBar() {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <AppNavLink to="/" text="Home" />
-        <AppNavLink to="/events" text="Events" />
+        <AppNavLink to="/feed" text="Feed" />
         <AppNavLink to="/activity" text="Activity" />
         {/* <AppNavLink to="/team" text="Team" /> */}
         <div className="w-full">

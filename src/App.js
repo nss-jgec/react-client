@@ -1,7 +1,7 @@
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
-import Events from "./views/Events";
+import Feed from "./views/Feed";
 import Team from "./views/Team";
 import NavBar from "./comps/Navbar";
 import Foot from "./comps/Footer";
@@ -14,7 +14,7 @@ function App() {
       <HashRouter>
         <NavBar />
         <Routes>
-          <Route path="/events" element={<Events />} />
+          <Route path="/feed" element={<Feed />} />
           <Route path="/activity" element={<Activities />} />
           <Route path="/team" element={<Team />} />
           <Route path="advisory-committee" element={<Advisory />} />

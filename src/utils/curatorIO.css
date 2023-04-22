@@ -1,0 +1,17 @@
+.crt-feed {
+  display: flex;
+  flex-wrap: wrap;
+}
+.crt-carousel-pane {
+  margin: 0px 4px;
+}
+@media screen and (max-width: 480px) {
+  .crt-feed {
+    flex-direction: column;
+    align-content: center;
+  }
+  .crt-carousel-pane{
+    scale: 0.8;
+    transform: translateX(-20px);
+  }
+}
