@@ -1,5 +1,6 @@
 import { Dropdown, Navbar } from "flowbite-react";
 import AppNavLink from "./AppNavLink";
+import ScrollBar from "./ScrollProgress";
 export default function NavBar() {
   return (
     <Navbar
@@ -48,6 +49,7 @@ export default function NavBar() {
         </div>
         <AppNavLink to="/contact" text="Contact Us" />
       </Navbar.Collapse>
+      <ScrollBar />
     </Navbar>
   );
 }
