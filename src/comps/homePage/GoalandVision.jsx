@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const GoadandVision = () => {
+const GoalandVision = () => {
   return (
     <main className='w-full text-left flex justify-center my-8'>
         <div className='w-5/6 flex flex-col md:flex-row'>
@@ -47,4 +47,4 @@ const GoadandVision = () => {
   )
 }
 
-export default GoadandVision
+export default GoalandVision

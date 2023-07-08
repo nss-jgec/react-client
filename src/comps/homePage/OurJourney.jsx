@@ -43,7 +43,7 @@ const OurJourney = () => {
                     </div>
                     <div className='shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] px-5
                      rounded-sm'>
-                        <img className='w-24 md:w-28 h-16 md:h-24 object-fit my-6 ' src="./makeroom.png" alt="who" />
+                        <img className='w-24 md:w-28 h-16 md:h-24 object-fit my-6 ' src="./makeroom.png" alt="makeroom" />
                     </div>
                     <div className='shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] px-5
                      rounded-sm'>
@@ -63,7 +63,7 @@ const OurJourney = () => {
                     </div>
                     <div className='shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] px-5
                      rounded-sm'>
-                        <img className='w-24 md:w-28 h-16 md:h-24 object-fit my-6 ' src="./UK-govt.svg.png" alt="who" />
+                        <img className='w-24 md:w-28 h-16 md:h-24 object-fit my-6 ' src="./UK-govt.svg.png" alt="UK-govt" />
                     </div>
                     <div className='shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] px-5
                      rounded-sm'>

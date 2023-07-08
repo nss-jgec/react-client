@@ -1,11 +1,11 @@
 import { Carousel, Timeline } from "flowbite-react";
 import Bullets from "../comps/TimelineBullets";
 import data from "../utils/HomeData";
-import Testimonials from "../comps/Testimonials";
-import LatestBlogs from "../comps/LatestBlogs";
-import OurJourney from "../comps/OurJourney";
-import Conclave from "../comps/Conclave";
-import GoadandVision from "../comps/GoadandVision";
+import Testimonials from "../comps/homePage/Testimonials";
+import LatestBlogs from "../comps/homePage/LatestBlogs";
+import OurJourney from "../comps/homePage/OurJourney";
+import Conclave from "../comps/homePage/Conclave";
+import GoalandVision from "../comps/homePage/GoalandVision";
 
 export default function Home() {
   return (
@@ -43,7 +43,7 @@ export default function Home() {
           <Bullets points={data["Logo"]} />
         </div>
       </div>
-      <GoadandVision/>
+      <GoalandVision/>
       <Conclave/>
       <OurJourney/>
       <LatestBlogs/>
