@@ -1,4 +1,3 @@
-import { Carousel, Timeline } from "flowbite-react";
 import Bullets from "../comps/TimelineBullets";
 import data from "../utils/HomeData";
 import Testimonials from "../comps/homePage/Testimonials";
@@ -10,13 +9,13 @@ import GoalandVision from "../comps/homePage/GoalandVision";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* <div className="w-11/12 m-auto h-72 md:h-96 rounded-none">
-        <Carousel indicators={false}>
-          <div className="bg-orange-700 h-96"></div>
-          <div className="bg-green-500 h-96"></div>
-          <div className="bg-blue-500 h-96"></div>
-        </Carousel>
-      </div> */}
+        <div className="w-full h-[20rem] sm:h-[30rem] lg:h-screen relative ease-in duration-300">
+          <img src="jgecclg.jpg" alt="" className="h-full w-full" />
+          <div className="absolute left-8 md:left-16 top-[70%]">
+            <p className="text-4xl md:text-[4rem] md:pb-5 text-white  uppercase text-start">NSS JGEC</p>
+            <p className="text-xl md:text-4xl text-white ">Community before self</p>
+          </div>
+        </div>
       <div
         className="flex flex-col items-center lg:flex-row justify-evenly m-4 p-2"
         id="about"

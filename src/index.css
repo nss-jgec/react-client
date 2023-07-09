@@ -23,3 +23,13 @@ code {
   border-radius: 10px;
   border: 3px solid #37316f;
 }
+
+.listyle {
+  @apply me-2 md:hover:bg-[#494285] rounded-full hover:text-white px-4 py-[5px] cursor-pointer ease-in duration-300;
+}
+.navContainer{
+  @apply fixed top-0 w-full h-20 z-[100] ease-in duration-300 
+}
+.sideNavbar{
+  @apply fixed left-0 top-0  w-[75%] sm:w-[60%] h-screen z-[99] bg-white text-gray-600 p-3 pt-16 sm:p-20 transition-transform translate-x-[0] ease-in-out   duration-700
+}
